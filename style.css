@@ -177,17 +177,60 @@ h4{
 
 /** Offer area end **/
 
+/** social area start **/
+
 .social-subs{
-    width: 85%;
+    width: 75%;
     height: 180px;
     margin-top: 120px;
-    margin-left: 135px;
+    margin-left: 160px;
     margin-bottom: 120px;
     box-shadow: 1px 1px 20px gray;
     border-radius: 10px;
     display: inline-block;
 }
-.box{
-    width: 25%;
+
+
+.social-half{
+    width: 33.3%;
     float: left;
+    text-align: center;
 }
+
+.social-half h1{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(79, 200, 248);
+    font-size: 35px;
+}
+
+.social-half p{
+    text-align: center;
+}
+
+/** social area end **/
+
+/** footer area **/
+
+.footer{
+    background-image: url(images/food/footer1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.footer h1 {
+  color: rgb(235, 223, 223);
+  text-align: center;
+  font-family: 'STIX Two Math', serif;
+  font-weight: 700;
+  font-size: 55px;
+  padding-top: 100px;
+    
+}
+.footer p{
+    text-align: center;
+    padding-top: 170px;
+    color: aliceblue;
+}
+
+/** footer area end **/
